@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>2022 MINI HOMEPAGE</title>
+        <link rel="stylesheet" href="./static/font.css" />
+        <link rel="stylesheet" href="./static/layout.css" />
+        <link rel="stylesheet" href="./static/guestbook.css" />
+        <script src="https://kit.fontawesome.com/641c141f97.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bookcover">
+            <div class="bookdot">
+                <div class="page">
+                        <div class="block1">
+                            <div class="block11">
+                                <table style="height: 100%;width: 100%;">
+                                    <tr style="height: 1px;">
+                                        <td></td>
+                                    </tr>
+                                    <tr style="height: 100%;">
+                                        <td>
+                                            <span>TODAY</span>
+                                            <span>28</span>
+                                            <span>| TOTAL 20100</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="block12 boxColor">
+                                <div class="block121">
+                                    <img src="./static/images/Bichon.jpg" style="width: 100%;">
+                                </div>
+                                <div class="block122">
+                                    저는 비숑이라고 해요. 예전에는 바빗을 닮아 바비숑이라는 이름으로 불렸던 견종이에요.
+                                    <br><br>
+                                    곱슬곱슬한 털에 애교만점 강쥐랍니다^^
+                                </div>
+                                <div class="block123">
+                                    비숑 프리제 (♀)
+                                </div>
+                                <div class="block124">
+                                    <select id="wave" name="wave" style="width: 100%;" onchange="waveSelect();">
+                                        <option value="waveCombo" selected hidden>파도타기</option>
+                                        <option value="codemate">코드메이트</option>
+                                        <option value="codeuniv">코뮤니티</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block2">
+                            <div class="block21">
+                                <div class="block211">
+                                    비숑이의 집으로 슝슝~!! ♥♡♥♡
+                                </div>
+                                <div class="block212">
+                                    <table style="height: 100%;width: 100%;">
+                                        <tr style="height: 1px;">
+                                            <td></td>
+                                        </tr>
+                                        <tr style="height: 100%;">
+                                            <td>
+                                                https://url주소/나중에입력
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- 방명록 화면 시작 -->
+                            <div class="block22 boxColor">
+                                <div class="guestbook guestbookFont">
+                                    <div class="guestbook1">
+                                        No.74 고양이 <i class="fa-solid fa-house-chimney-window"></i> (2022.02.18 17:38)
+                                    </div>
+                                    <div class="guestbook2">
+                                        <div class="guestbook21 background1">
+                                            <img src="./static/images/guest1.png">
+                                        </div>
+                                        <div class="guestbook22">
+                                            냐옹!! 냐옹~~<br>
+                                            나느 고양이다 냐옹~<br>
+                                            오늘 생선을 먹었는데, 뼈만 샤라락 발라먹었다 냐옹~<br>
+                                            너무 맛있었다 냐옹~!!
+                                        </div>
+                                    </div>
+                                    <div class="guestbook1">
+                                        No.73 닭 <i class="fa-solid fa-house-chimney-window"></i> (2022.02.17 09:52)
+                                    </div>
+                                    <div class="guestbook2">
+                                        <div class="guestbook21 background2">
+                                            <img src="./static/images/guest2.png">
+                                        </div>
+                                        <div class="guestbook22">
+                                            꼬꼬댁~~~~ 꼬꼬꼬꼬~~<br>
+                                            나는 하늘을 나는게 소원이당 꼬꼬~<br>
+                                            어느날은 힘차게 날개짓을 했는데 5cm 날았나 싶더니<br>
+                                            다시 땅바닥에 내동댕이 쳐졌다 꼬꼬~<br>
+                                            그래서 슬펐다 꼬꼬~ㅠ<br>
+                                            하지만, 더 슬픈일은 최근에 비둘기가 나의 시그니쳐를 따라하기<br>
+                                            시작했다 꼬꼬~~<br>
+                                            심지어는 닭둘기란다 꼬꼬~<br>
+                                            정말 슬픈일이다 꼬꼬~ㅠㅠ
+                                        </div>
+                                    </div>
+                                    <div class="guestbook1">
+                                        No.72 소 <i class="fa-solid fa-house-chimney-window"></i> (2022.02.16 15:07)
+                                    </div>
+                                    <div class="guestbook2">
+                                        <div class="guestbook21 background3">
+                                            <img src="./static/images/guest3.png">
+                                        </div>
+                                        <div class="guestbook22">
+                                            음메~~~ 으음~ 메~~~<br>
+                                            나는 밭을 가는 소다 음메~<br>
+                                            어제 있었던 일이다 음메~<br>
+                                            길을 걷고 있는데 저 멀리 콩쥐가 혼자서 밭을 갈고 있었다 음메~<br>
+                                            그런데 자세히 보니 막 슬프게 울고 있는 것이다 음메~<br>
+                                            그래서 왜 우냐고 물었더니 계모가 나무호미로 밭을 갈라고 했다는 것이다 음메~<br>
+                                            불쌍한 콩쥐를 위해 대신 밭을 갈아줬다 음메~~<br>
+                                            나 엄청 착한 것 같다 음메~~
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 방명록 화면 끝 -->
+                        </div>
+                        <div class="block3">
+                            <div class="block31"></div>
+                            <div class="block32">
+                                <a href="./minihome_home.html">홈</a>
+                            </div>
+                            <div class="block32">
+                                <a href="./minihome_diary.html">다이어리</a>
+                            </div>
+                            <div class="block32">
+                                <a href="./minihome_album.html">사진첩</a>
+                            </div>
+                            <div class="block32 block32_selected">
+                                방명록
+                            </div>
+                            <div class="block36"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function waveSelect() {
+                var val = document.getElementById("wave").value;
+
+                if(val == "codemate") {
+                    location.href = "https://codemate.kr/explore/projects";
+                }
+                else if(val == "codeuniv") {
+                    location.href ="https://cafe.naver.com/codeuniv";
+                }
+            }
+        </script>
+    </body>
+</html>

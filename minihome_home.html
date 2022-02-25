@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>2022 MINI HOMEPAGE</title>
+        <link rel="stylesheet" href="./static/font.css" />
+        <link rel="stylesheet" href="./static/layout.css" />
+        <link rel="stylesheet" href="./static/home.css" />
+    </head>
+    <body>
+        <div class="bookcover">
+            <div class="bookdot">
+                <div class="page">
+                        <div class="block1">
+                            <div class="block11">
+                                <table style="height: 100%;width: 100%;">
+                                    <tr style="height: 1px;">
+                                        <td></td>
+                                    </tr>
+                                    <tr style="height: 100%;">
+                                        <td>
+                                            <span>TODAY</span>
+                                            <span>28</span>
+                                            <span>| TOTAL 20100</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="block12 boxColor">
+                                <div class="block121">
+                                    <img src="./static/images/Bichon.jpg" style="width: 100%;">
+                                </div>
+                                <div class="block122">
+                                    저는 비숑이라고 해요. 예전에는 바빗을 닮아 바비숑이라는 이름으로 불렸던 견종이에요.
+                                    <br><br>
+                                    곱슬곱슬한 털에 애교만점 강쥐랍니다^^
+                                </div>
+                                <div class="block123">
+                                    비숑 프리제 (♀)
+                                </div>
+                                <div class="block124">
+                                    <select id="wave" name="wave" style="width: 100%;" onchange="waveSelect();">
+                                        <option value="waveCombo" selected hidden>파도타기</option>
+                                        <option value="codemate">코드메이트</option>
+                                        <option value="codeuniv">코뮤니티</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block2">
+                            <div class="block21">
+                                <div class="block211">
+                                    비숑이의 집으로 슝슝~!! ♥♡♥♡
+                                </div>
+                                <div class="block212">
+                                    <table style="height: 100%;width: 100%;">
+                                        <tr style="height: 1px;">
+                                            <td></td>
+                                        </tr>
+                                        <tr style="height: 100%;">
+                                            <td>
+                                                https://url주소/나중에입력
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- 홈 화면 시작 -->
+                            <div class="block22 boxColor">
+                                <div class="block221">
+                                    Updated news
+                                </div>
+                                <div class="block221hr"></div>
+                                <div class="block222">
+                                    <div class="block2221">
+                                        <div class="block22211">
+                                            <div class="block222111 photoBoardIcon">
+                                                사진첩
+                                            </div>
+                                            <div class="block222112 boardText">
+                                                숑숑이 사진보러 오세요
+                                            </div>
+                                        </div>
+                                        <div class="block22211">
+                                            <div class="block222111 writeBoardIcon">
+                                                게시판
+                                            </div>
+                                            <div class="block222112 boardText">
+                                                숑숑이의 2022년 1월 1일 일기
+                                            </div>
+                                        </div>
+                                        <div class="block22211">
+                                            <div class="block222111 writeBoardIcon">
+                                                게시판
+                                            </div>
+                                            <div class="block222112 boardText">
+                                                숑숑이의 2022년 2월 3일 일기
+                                            </div>
+                                        </div>
+                                        <div class="block22214">
+                                            <div class="block222111 photoBoardIcon">
+                                                사진첩
+                                            </div>
+                                            <div class="block222112 boardText">
+                                                숑숑이 오늘 셀카 찍었어요
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block2222">
+                                        <div class="block22221">
+                                            <div class="block222211">
+                                                다이어리 0/25
+                                            </div>
+                                            <div class="block222212">
+                                                사진첩 0/25
+                                            </div>
+                                        </div>
+                                        <div class="block22222"></div>
+                                        <div class="block22221">
+                                            <div class="block222211">
+                                                게시판 0/25
+                                            </div>
+                                            <div class="block222212">
+                                                방명록 0/25
+                                            </div>
+                                        </div>
+                                        <div class="block22222"></div>
+                                        <div class="block22225"></div>
+                                    </div>
+                                </div>
+                                <div class="block223">
+                                    Miniroom
+                                </div>
+                                <div class="block221hr"></div>
+                                <div class="block224">
+                                    <img src="./static/images/Bichon_miniroom.jpg" style="height: 100%;">
+                                </div>
+                            </div>
+                            <!-- 홈 화면 끝 -->
+                        </div>
+                        <div class="block3">
+                            <div class="block31"></div>
+                            <div class="block32 block32_selected">
+                                홈
+                            </div>
+                            <div class="block32">
+                                <a href="./minihome_diary.html">다이어리</a>
+                            </div>
+                            <div class="block32">
+                                <a href="./minihome_album.html">사진첩</a>
+                            </div>
+                            <div class="block32">
+                                <a href="./minihome_guestbook.html">방명록</a>
+                            </div>
+                            <div class="block36"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function waveSelect() {
+                var val = document.getElementById("wave").value;
+
+                if(val == "codemate") {
+                    location.href = "https://codemate.kr/explore/projects";
+                }
+                else if(val == "codeuniv") {
+                    location.href ="https://cafe.naver.com/codeuniv";
+                }
+            }
+        </script>
+    </body>
+</html>

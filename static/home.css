@@ -1,0 +1,105 @@
+.block221 {
+    flex: 0.1;
+    margin: 15px 15px 0px 15px;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 12px;
+    color: #689db3;
+}
+.block221hr {
+    flex: 0.001;
+    margin: 0px 15px 5px 15px;
+    background-color: #689db3;
+}
+.block222 {
+    flex: 0.4;
+    display: flex;
+    margin: 0px 15px 15px 15px;
+}
+.block223 {
+    flex: 0.1;
+    margin: 15px 15px 0px 15px;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 12px;
+    color: #689db3;
+}
+.block224 {
+    flex: 2;
+    margin: 0px 15px 15px 15px;
+    text-align: center;
+    border: 1px solid #afafaf;
+}
+.block2221 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.block2222 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.block22211 {
+    flex: 1;
+    display: flex;
+    margin-bottom: 3px;
+}
+.block22214 {
+    flex: 1;
+    display: flex;
+}
+.block22221 {
+    flex: 0.999;
+    display: flex;
+    margin-bottom: 3px;
+}
+.block22222 {
+    flex: 0.001;
+    border: 1px dashed gray;
+    margin-bottom: 3px;
+}
+.block22225 {
+    flex: 2;
+}
+.block222111 {
+    flex: 0.6;
+}
+.block222112 {
+    flex: 3;
+}
+.block222211 {
+    flex: 1;
+    margin-right: 5px;
+    padding-top: 4px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 12px;
+}
+.block222212 {
+    flex: 1;
+    margin-left: 5px;
+    padding-top: 4px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 12px;
+}
+.boardText {
+    padding-left: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+}
+.photoBoardIcon {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #fd5d5d;
+}
+.writeBoardIcon {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #8585fa;
+}

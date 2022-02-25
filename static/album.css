@@ -1,0 +1,26 @@
+.album {
+    flex: 1;
+    margin: 15px 15px 15px 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.album221 {
+    width: 92%;
+    margin: 0px 15px 5px 5px;
+    padding: 5px 10px 8px 10px;
+    background-color: silver;
+    font-size: 14px;
+}
+.album222 {
+    width: 91%;
+    margin: 5px 15px 5px 15px;
+    border: 1px solid #d1d1d1;
+}
+.album223 {
+    width: 91%;
+    margin: 5px 15px 50px 15px;
+    font-size: 12px;
+}
+.albumFont {
+    font-family: 'Noto Sans KR', sans-serif;
+}

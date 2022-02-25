@@ -1,0 +1,104 @@
+.diary1 {
+    flex: 0.5;
+    display: flex;
+    margin: 15px 15px 10px 15px;
+    border: 1px solid silver;
+}
+.diary2 {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 5px 15px 15px 0px;
+}
+.diary11 {
+    flex: 0.3;
+    font-size: 14px;
+    padding-top: 13px;
+    color: #689db3;
+    font-weight: bold;
+    text-align: center;
+}
+.diary12 {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start ;
+    font-size: 14px;
+}
+.diary21 {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 0px 0px 0px 15px;
+}
+.diary121 {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    padding-left: 5px;
+    text-align: center;
+    color: gray;
+}
+.diary211 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+}
+.diary212 {
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+}
+.diary2111 {
+    width: 100%;
+    height: 30px;
+    padding-top: 16px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #689db3;
+}
+.diary2112 {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+.secretButton {
+    width: 200px;
+    height: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.secretButton:hover {
+    transition: 800ms ease all;
+    background-color: #099b6f;
+}
+#secret_box {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: none;
+}
+.diaryFont1 {
+    font-family: 'NeoDunggeunmo';
+}
+.diaryFont2 {
+    font-family: 'KyoboHand';
+}
+.saturday {
+    color: blue;
+}
+.sunday {
+    color: red;
+}
+.holiday {
+    color: red;
+}
